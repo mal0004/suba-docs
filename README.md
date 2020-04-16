@@ -1,5 +1,7 @@
 # Commands  
-There are **77 commands** available in **9 categories**!### General | 15 commands
+There are **77 commands** available in **9 categories**!
+
+### General | 15 commands
 
 | Name            | Description                                 | Usage                              | Cooldown  |
 | --------------- | ------------------------------------------- | ---------------------------------- | --------- |
