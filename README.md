@@ -5,8 +5,7 @@ There are **77 commands** available in **9 categories**!### General | 15 command
 | --------------- | ------------------------------------------- | ---------------------------------- | --------- |
 | **botinfo**     | Gives information about the bot             | botinfo                            | 5 seconds |
 | **channelinfo** | Get information about a channel             | channelinfo <#channel/id>          | 5 seconds |
-| **help**        | Help to a command
-Send the commands         | help [commands]                    | 3 seconds |
+| **help**        | Help for a command                          | help [commands]                    | 3 seconds |
 | **invite**      | Get invitations of the bot                  | invite                             | 5 seconds |
 | **inviteinfo**  | Get some info about an invitation           | inviteinfo <invite>                | 3 seconds |
 | **ping**        | Have the bot ping                           | ping                               | 3 seconds |
@@ -22,23 +21,22 @@ Send the commands         | help [commands]                    | 3 seconds |
 
 ### Moderation | 14 commands
 
-| Name            | Description                                                                      | Usage                                                 | Cooldown  |
-| --------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------- | --------- |
-| **ban**         | Ban a member                                                                     | ban <@user/name/id> [message days delete] [reason]    | 5 seconds |
-| **banlist**     | Get the ban list
-Get information about a ban                                     | banlist [id/name]                                     | 3 seconds |
-| **block-emote** | Block the requested emote just for you and others person who have the same role! | block-emote <emote-name>                              | 3 seconds |
-| **build-embed** | Build your own embed                                                             | build-embed                                           | 5 seconds |
-| **clear**       | Clear the number of messages                                                     | clear <number> [bots/@user/attachements]              | 3 seconds |
-| **mute**        | Mute a member                                                                    | mute <@user/id/name> (reason)                         | 5 seconds |
-| **poll**        | Create a poll                                                                    | poll <poll>                                           | 3 seconds |
-| **prune**       | Prune the members                                                                | prune <number of days> (reason)                       | 5 seconds |
-| **seewarns**    | See the warns of a member                                                        | seewarns <@user/id/name>                              | 5 seconds |
-| **setwarns**    | Set the warns sanctions                                                          | setwarns <kick/ban/mute/reset> <number/kick/ban/mute> | 5 seconds |
-| **tempban**     | Tempban a member                                                                 | tempban <@user/id/name> <time> (reason)               | 5 seconds |
-| **unban**       | Unban a member                                                                   | unban <name/id> [reason]                              | 5 seconds |
-| **unmute**      | UnMute a member                                                                  | unmute <@user/id/name>                                | 5 seconds |
-| **warn**        | Warn a member                                                                    | warn <@user/id/name> (reason)                         | 5 seconds |
+| Name            | Description                                 | Usage                              | Cooldown  |
+| --------------- | ------------------------------------------- | ---------------------------------- | --------- |
+| **ban**         | Ban a member                                | ban <@user/name/id> [message days delete] [reason]                           | 5 seconds |
+| **banlist**     | Get the ban list | banlist [id/name]        | banlist [id/name]                  | 3 seconds |
+| **block-emote** | Block the requested emote just for you and others person who have the same role! | block-emote <emote-name>                   | 3 seconds |
+| **build-embed** | Build your own embed                        | build-embed                        | 5 seconds |
+| **clear**       | Clear the number of messages                | clear <number> [bots/@user/attachements]               | 3 seconds |
+| **mute**        | Mute a member                               | mute <@user/id/name> (reason)                               | 5 seconds |
+| **poll**        | Create a poll                               | poll <poll>                        | 3 seconds |
+| **prune**       | Prune the members                           | prune <number of days> (reason)    | 5 seconds |
+| **seewarns**    | See the warns of a member                   | seewarns <@user/id/name>           | 5 seconds |
+| **setwarns**    | Set the warns sanction                      | setwarns <kick/ban/mute/reset> <number/kick/ban/mute>               | 5 seconds |
+| **tempban**     | Tempban a member                            | tempban <@user/id/name> <time> (reason)                   | 5 seconds |
+| **unban**       | Unban a member                              | unban <name/id> [reason]           | 5 seconds |
+| **unmute**      | Unmute a member                             | unmute <@user/id/name>             | 5 seconds |
+| **warn**        | Warn a member                               | warn <@user/id/name> (reason)      | 5 seconds |
 
 ### Administration | 10 commands
 
@@ -63,7 +61,7 @@ Get information about a ban                                     | banlist [id/na
 | **craft**          | Craft a pickaxe, a sword or other             | craft <pickaxe/sword/shield> | 3 seconds |
 | **create-profile** | Create your own profile! Farm and join a clan | create-profile               | 3 seconds |
 | **divorce**        | Divorce with ~~your half~~ your old half      | divorce                      | 3 seconds |
-| **farm**           | farm                                          | farm                         | 3 seconds |
+| **farm**           | Farm                                          | farm                         | 3 seconds |
 | **job**            | Get my Job :p                                 | job                          | 3 seconds |
 | **profile**        | View your profile/another user's profile      | profile [@user/id/name]      | 3 seconds |
 | **rep**            | Add a repuation point                         | rep <@user/id/name>          | 3 seconds |
